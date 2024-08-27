@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    event = 'BufWritePre', -- uncomment for format on save
+    event = "BufWritePre",
     opts = require "configs.conform",
   },
 
@@ -26,12 +26,17 @@ return {
   --
   {
     "sindrets/diffview.nvim",
-    lazy = false
+    lazy = false,
+    config = {
+      enhanced_diff_hl = true,
+    },
   },
 
   {
-    "L3MON4D3/LuaSnip",
-    enabled = false
+    "lewis6991/gitsigns.nvim",
+    config = {
+      current_line_blame = true,
+    },
   },
 
   {
@@ -47,5 +52,5 @@ return {
       { "R", mode = { "o", "x" }, function() require("flash").treesitter_search() end, desc = "Treesitter Search" },
       { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
     },
-  }
+  },
 }
