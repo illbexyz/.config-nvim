@@ -29,6 +29,7 @@ require('lazy').setup({
   require 'plugins/nvim-autopairs',
   require 'plugins/lazygit',
   require 'plugins/toggleterm',
+  require 'plugins/nvim-colorizer',
 
   -- themes
   require 'plugins/catpuccin',
