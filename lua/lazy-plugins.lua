@@ -31,6 +31,7 @@ require('lazy').setup({
   require 'plugins/nvim-colorizer',
   require 'plugins/nvim-surround',
   require 'plugins/neogit',
+  require 'plugins/bufferline',
 
   -- themes
   require 'plugins/catpuccin',
