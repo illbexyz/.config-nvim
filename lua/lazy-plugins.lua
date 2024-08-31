@@ -30,6 +30,7 @@ require('lazy').setup({
   require 'plugins/lazygit',
   require 'plugins/toggleterm',
   require 'plugins/nvim-colorizer',
+  require 'plugins/nvim-surround',
 
   -- themes
   require 'plugins/catpuccin',
