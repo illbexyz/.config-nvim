@@ -12,7 +12,6 @@
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
-  'tpope/vim-fugitive',
 
   require 'plugins/gitsigns',
   require 'plugins/which-key',
@@ -31,6 +30,7 @@ require('lazy').setup({
   require 'plugins/toggleterm',
   require 'plugins/nvim-colorizer',
   require 'plugins/nvim-surround',
+  require 'plugins/neogit',
 
   -- themes
   require 'plugins/catpuccin',
@@ -44,7 +44,7 @@ require('lazy').setup({
   -- require 'kickstart.plugins.lint',
   -- require 'kickstart.plugins.autopairs',
   -- require 'kickstart.plugins.neo-tree',
-  -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
+  require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
