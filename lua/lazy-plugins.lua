@@ -29,6 +29,7 @@ require('lazy').setup({
   require 'plugins/nvim-tree',
   require 'plugins/nvim-autopairs',
   require 'plugins/lazygit',
+  require 'plugins/toggleterm',
 
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
