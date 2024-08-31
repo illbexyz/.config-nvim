@@ -20,7 +20,6 @@ require('lazy').setup({
   require 'plugins/lsp',
   require 'plugins/conform',
   require 'plugins/nvim-cmp',
-  require 'plugins/tokyonight',
   require 'plugins/todo-comments',
   require 'plugins/mini-nvim',
   require 'plugins/nvim-treesitter',
@@ -30,6 +29,10 @@ require('lazy').setup({
   require 'plugins/nvim-autopairs',
   require 'plugins/lazygit',
   require 'plugins/toggleterm',
+
+  -- themes
+  require 'plugins/catpuccin',
+  -- require 'plugins/tokyonight',
 
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
