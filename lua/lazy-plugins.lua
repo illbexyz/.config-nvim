@@ -32,6 +32,7 @@ require('lazy').setup({
   require 'plugins/nvim-surround',
   require 'plugins/neogit',
   require 'plugins/bufferline',
+  require 'plugins/nvim-ts-autotag',
 
   -- themes
   require 'plugins/catpuccin',
