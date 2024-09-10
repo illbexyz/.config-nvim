@@ -24,7 +24,7 @@ require('lazy').setup({
   require 'plugins/nvim-treesitter',
   require 'plugins/diffview',
   require 'plugins/flash',
-  require 'plugins/nvim-tree',
+  -- require 'plugins/nvim-tree',
   require 'plugins/nvim-autopairs',
   require 'plugins/lazygit',
   require 'plugins/toggleterm',
@@ -33,6 +33,7 @@ require('lazy').setup({
   require 'plugins/neogit',
   require 'plugins/bufferline',
   require 'plugins/nvim-ts-autotag',
+  -- require 'plugins/copilot',
 
   -- themes
   require 'plugins/catpuccin',
@@ -45,7 +46,7 @@ require('lazy').setup({
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
   -- require 'kickstart.plugins.autopairs',
-  -- require 'kickstart.plugins.neo-tree',
+  require 'kickstart.plugins.neo-tree',
   require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 }, {
   ui = {
